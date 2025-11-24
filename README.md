@@ -16,23 +16,20 @@ step 2:
 
 Open crosh, 
 
-shell, 
+`shell`
 
-sudo -i, 
+`sudo -i`
 
-cd .. , 
-
-cd /etc/opt/chrome/policies/managed, 
-
-Ls, 
-
-cd managed (or whatever it says), 
-
-Ls, 
-
-curl -O https://raw.githubusercontent.com/Star-destroyer12/ChromeOS-policy-editor-Test-version-/refs/heads/main/newpolicy.json
-
+`cd .. `
+```
+cd /etc/opt/chrome/policies/managed,
+```
+```
+curl -O https://raw.githubusercontent.com/Jmoney46/ChromeOS-policy-editor-UPDATED/refs/heads/main/newpolicy.json
+```
+```
 cat newpolicy.json > policy.json
+```
 
 After this, you should be done. Reload your policies, and check the policies you changed if this did not work, please tell me I will try to help. 
 
